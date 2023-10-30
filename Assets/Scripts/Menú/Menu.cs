@@ -6,24 +6,32 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
-    public GameObject FondoCanvas; // Variable para el Canvas "Fondo"
-
     private Button Jugar;
     private Button Instrucciones;
     private Button Salir;
 
     void Start()
     {
-        // Accede al Canvas "Fondo" para encontrar el Panel y sus botones
-        GameObject panel = FondoCanvas.transform.Find("Panel").gameObject;
-        
-        Jugar = panel.transform.Find("Jugar").GetComponent<Button>();
-        Instrucciones = panel.transform.Find("Instrucciones").GetComponent<Button>();
-        Salir = panel.transform.Find("Salir").GetComponent<Button>();
+        // Buscar el Canvas "Fondo" que contiene el Panel con los botones
+        GameObject fondoCanvas = GameObject.Find("Fondo");
 
-        Jugar.onClick.AddListener(OnStartButtonClicked);
-        Instrucciones.onClick.AddListener(OnInstructionsButtonClicked);
-        Salir.onClick.AddListener(OnExitButtonClicked);
+        // Verificar si se encontró el Canvas
+        if (fondoCanvas != null)
+        {
+            GameObject panel = fondoCanvas.transform.Find("Panel").gameObject;
+
+            Jugar = panel.transform.Find("Jugar").GetComponent<Button>();
+            Instrucciones = panel.transform.Find("Instrucciones").GetComponent<Button>();
+            Salir = panel.transform.Find("Salir").GetComponent<Button>();
+
+            Jugar.onClick.AddListener(OnStartButtonClicked);
+            Instrucciones.onClick.AddListener(OnInstructionsButtonClicked);
+            Salir.onClick.AddListener(OnExitButtonClicked);
+        }
+        else
+        {
+            Debug.LogError("No se encontró el Canvas 'Fondo'. Asegúrate de que está correctamente nombrado en la escena.");
+        }
     }
 
     public void OnStartButtonClicked()
@@ -33,7 +41,7 @@ public class Menu : MonoBehaviour
 
     public void OnInstructionsButtonClicked()
     {
-        // Lógica para mostrar instrucciones
+        SceneManager.LoadScene("Instrucciones");
     }
 
     public void OnExitButtonClicked()

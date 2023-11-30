@@ -126,10 +126,10 @@ TextureImporter:
       name: Personajes2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 336
-        width: 32
-        height: 48
+        x: 2
+        y: 335
+        width: 28
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: Personajes2_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 34
         y: 336
-        width: 32
-        height: 48
+        width: 29
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: Personajes2_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 336
-        width: 32
-        height: 48
+        x: 67
+        y: 335
+        width: 28
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,10 +189,10 @@ TextureImporter:
       name: Personajes2_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 336
-        width: 32
-        height: 48
+        x: 98
+        y: 335
+        width: 29
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: Personajes2_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 130
         y: 336
-        width: 32
-        height: 48
+        width: 29
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: Personajes2_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 336
-        width: 32
-        height: 48
+        x: 162
+        y: 335
+        width: 29
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +252,10 @@ TextureImporter:
       name: Personajes2_6
       rect:
         serializedVersion: 2
-        x: 192
-        y: 336
-        width: 32
-        height: 48
+        x: 194
+        y: 335
+        width: 29
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,10 +273,10 @@ TextureImporter:
       name: Personajes2_7
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 336
-        width: 32
-        height: 48
+        width: 31
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: Personajes2_8
       rect:
         serializedVersion: 2
-        x: 256
-        y: 336
-        width: 32
-        height: 48
+        x: 258
+        y: 335
+        width: 29
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,10 +315,10 @@ TextureImporter:
       name: Personajes2_9
       rect:
         serializedVersion: 2
-        x: 288
-        y: 336
-        width: 32
-        height: 48
+        x: 291
+        y: 335
+        width: 26
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: Personajes2_10
       rect:
         serializedVersion: 2
-        x: 320
+        x: 322
         y: 336
-        width: 32
-        height: 48
+        width: 29
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +357,10 @@ TextureImporter:
       name: Personajes2_11
       rect:
         serializedVersion: 2
-        x: 352
-        y: 336
-        width: 32
-        height: 48
+        x: 356
+        y: 335
+        width: 26
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +378,10 @@ TextureImporter:
       name: Personajes2_12
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 288
-        width: 32
-        height: 48
+        width: 26
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,10 +399,10 @@ TextureImporter:
       name: Personajes2_13
       rect:
         serializedVersion: 2
-        x: 32
-        y: 288
-        width: 32
-        height: 48
+        x: 36
+        y: 289
+        width: 25
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,10 +420,10 @@ TextureImporter:
       name: Personajes2_14
       rect:
         serializedVersion: 2
-        x: 64
+        x: 67
         y: 288
-        width: 32
-        height: 48
+        width: 26
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +441,10 @@ TextureImporter:
       name: Personajes2_15
       rect:
         serializedVersion: 2
-        x: 96
+        x: 99
         y: 288
-        width: 32
-        height: 48
+        width: 30
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +462,10 @@ TextureImporter:
       name: Personajes2_16
       rect:
         serializedVersion: 2
-        x: 128
+        x: 132
         y: 288
-        width: 32
-        height: 48
+        width: 28
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,10 +483,10 @@ TextureImporter:
       name: Personajes2_17
       rect:
         serializedVersion: 2
-        x: 160
+        x: 163
         y: 288
-        width: 32
-        height: 48
+        width: 29
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +504,10 @@ TextureImporter:
       name: Personajes2_18
       rect:
         serializedVersion: 2
-        x: 192
+        x: 196
         y: 288
-        width: 32
-        height: 48
+        width: 25
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: Personajes2_19
       rect:
         serializedVersion: 2
-        x: 224
+        x: 228
         y: 288
-        width: 32
-        height: 48
+        width: 25
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: Personajes2_20
       rect:
         serializedVersion: 2
-        x: 256
+        x: 260
         y: 288
-        width: 32
-        height: 48
+        width: 25
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,10 +567,10 @@ TextureImporter:
       name: Personajes2_21
       rect:
         serializedVersion: 2
-        x: 288
+        x: 292
         y: 288
-        width: 32
-        height: 48
+        width: 28
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,10 +588,10 @@ TextureImporter:
       name: Personajes2_22
       rect:
         serializedVersion: 2
-        x: 320
+        x: 324
         y: 288
-        width: 32
-        height: 48
+        width: 27
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,10 +609,10 @@ TextureImporter:
       name: Personajes2_23
       rect:
         serializedVersion: 2
-        x: 352
+        x: 356
         y: 288
-        width: 32
-        height: 48
+        width: 28
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,10 +630,10 @@ TextureImporter:
       name: Personajes2_24
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 240
-        width: 32
-        height: 48
+        width: 26
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -651,9 +651,9 @@ TextureImporter:
       name: Personajes2_25
       rect:
         serializedVersion: 2
-        x: 32
+        x: 35
         y: 240
-        width: 32
+        width: 25
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -672,10 +672,10 @@ TextureImporter:
       name: Personajes2_26
       rect:
         serializedVersion: 2
-        x: 64
+        x: 67
         y: 240
-        width: 32
-        height: 48
+        width: 26
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -693,10 +693,10 @@ TextureImporter:
       name: Personajes2_27
       rect:
         serializedVersion: 2
-        x: 96
+        x: 95
         y: 240
-        width: 32
-        height: 48
+        width: 30
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,8 +716,8 @@ TextureImporter:
         serializedVersion: 2
         x: 128
         y: 240
-        width: 32
-        height: 48
+        width: 28
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -737,8 +737,8 @@ TextureImporter:
         serializedVersion: 2
         x: 160
         y: 240
-        width: 32
-        height: 48
+        width: 29
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +756,10 @@ TextureImporter:
       name: Personajes2_30
       rect:
         serializedVersion: 2
-        x: 192
+        x: 195
         y: 240
-        width: 32
-        height: 48
+        width: 25
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -777,10 +777,10 @@ TextureImporter:
       name: Personajes2_31
       rect:
         serializedVersion: 2
-        x: 224
+        x: 227
         y: 240
-        width: 32
-        height: 48
+        width: 25
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -798,10 +798,10 @@ TextureImporter:
       name: Personajes2_32
       rect:
         serializedVersion: 2
-        x: 256
+        x: 259
         y: 240
-        width: 32
-        height: 48
+        width: 25
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -821,8 +821,8 @@ TextureImporter:
         serializedVersion: 2
         x: 288
         y: 240
-        width: 32
-        height: 48
+        width: 28
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -840,10 +840,10 @@ TextureImporter:
       name: Personajes2_34
       rect:
         serializedVersion: 2
-        x: 320
+        x: 321
         y: 240
-        width: 32
-        height: 48
+        width: 27
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -863,8 +863,8 @@ TextureImporter:
         serializedVersion: 2
         x: 352
         y: 240
-        width: 32
-        height: 48
+        width: 28
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -882,10 +882,10 @@ TextureImporter:
       name: Personajes2_36
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 32
-        height: 48
+        x: 3
+        y: 191
+        width: 27
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -903,10 +903,10 @@ TextureImporter:
       name: Personajes2_37
       rect:
         serializedVersion: 2
-        x: 32
+        x: 34
         y: 192
-        width: 32
-        height: 48
+        width: 29
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -924,10 +924,10 @@ TextureImporter:
       name: Personajes2_38
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 32
-        height: 48
+        x: 67
+        y: 191
+        width: 27
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -945,10 +945,10 @@ TextureImporter:
       name: Personajes2_39
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
-        width: 32
-        height: 48
+        x: 98
+        y: 191
+        width: 29
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -966,10 +966,10 @@ TextureImporter:
       name: Personajes2_40
       rect:
         serializedVersion: 2
-        x: 128
+        x: 130
         y: 192
-        width: 32
-        height: 48
+        width: 29
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,10 +987,10 @@ TextureImporter:
       name: Personajes2_41
       rect:
         serializedVersion: 2
-        x: 160
-        y: 192
-        width: 32
-        height: 48
+        x: 162
+        y: 191
+        width: 29
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1008,10 +1008,10 @@ TextureImporter:
       name: Personajes2_42
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 32
-        height: 48
+        x: 193
+        y: 191
+        width: 31
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1029,10 +1029,10 @@ TextureImporter:
       name: Personajes2_43
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 192
-        width: 32
-        height: 48
+        width: 31
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1050,10 +1050,10 @@ TextureImporter:
       name: Personajes2_44
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
-        width: 32
-        height: 48
+        x: 257
+        y: 191
+        width: 31
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1071,10 +1071,10 @@ TextureImporter:
       name: Personajes2_45
       rect:
         serializedVersion: 2
-        x: 288
-        y: 192
-        width: 32
-        height: 48
+        x: 291
+        y: 191
+        width: 26
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1092,10 +1092,10 @@ TextureImporter:
       name: Personajes2_46
       rect:
         serializedVersion: 2
-        x: 320
+        x: 322
         y: 192
-        width: 32
-        height: 48
+        width: 29
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1113,10 +1113,10 @@ TextureImporter:
       name: Personajes2_47
       rect:
         serializedVersion: 2
-        x: 352
-        y: 192
-        width: 32
-        height: 48
+        x: 356
+        y: 191
+        width: 26
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1134,9 +1134,9 @@ TextureImporter:
       name: Personajes2_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 144
-        width: 32
+        x: 3
+        y: 143
+        width: 26
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1155,9 +1155,9 @@ TextureImporter:
       name: Personajes2_49
       rect:
         serializedVersion: 2
-        x: 32
+        x: 34
         y: 144
-        width: 32
+        width: 29
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1176,9 +1176,9 @@ TextureImporter:
       name: Personajes2_50
       rect:
         serializedVersion: 2
-        x: 64
-        y: 144
-        width: 32
+        x: 68
+        y: 143
+        width: 26
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1197,10 +1197,10 @@ TextureImporter:
       name: Personajes2_51
       rect:
         serializedVersion: 2
-        x: 96
-        y: 144
-        width: 32
-        height: 48
+        x: 98
+        y: 143
+        width: 28
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1218,10 +1218,10 @@ TextureImporter:
       name: Personajes2_52
       rect:
         serializedVersion: 2
-        x: 128
+        x: 130
         y: 144
-        width: 32
-        height: 48
+        width: 29
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1239,10 +1239,10 @@ TextureImporter:
       name: Personajes2_53
       rect:
         serializedVersion: 2
-        x: 160
-        y: 144
-        width: 32
-        height: 48
+        x: 163
+        y: 143
+        width: 28
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1260,10 +1260,10 @@ TextureImporter:
       name: Personajes2_54
       rect:
         serializedVersion: 2
-        x: 192
-        y: 144
-        width: 32
-        height: 48
+        x: 195
+        y: 143
+        width: 26
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1281,10 +1281,10 @@ TextureImporter:
       name: Personajes2_55
       rect:
         serializedVersion: 2
-        x: 224
+        x: 228
         y: 144
-        width: 32
-        height: 48
+        width: 25
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1302,10 +1302,10 @@ TextureImporter:
       name: Personajes2_56
       rect:
         serializedVersion: 2
-        x: 256
-        y: 144
-        width: 32
-        height: 48
+        x: 260
+        y: 143
+        width: 26
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1323,10 +1323,10 @@ TextureImporter:
       name: Personajes2_57
       rect:
         serializedVersion: 2
-        x: 288
-        y: 144
-        width: 32
-        height: 48
+        x: 291
+        y: 143
+        width: 28
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1344,10 +1344,10 @@ TextureImporter:
       name: Personajes2_58
       rect:
         serializedVersion: 2
-        x: 320
+        x: 322
         y: 144
-        width: 32
-        height: 48
+        width: 29
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1365,10 +1365,10 @@ TextureImporter:
       name: Personajes2_59
       rect:
         serializedVersion: 2
-        x: 352
-        y: 144
-        width: 32
-        height: 48
+        x: 354
+        y: 143
+        width: 28
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1386,10 +1386,10 @@ TextureImporter:
       name: Personajes2_60
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 96
-        width: 32
-        height: 48
+        width: 24
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1407,9 +1407,9 @@ TextureImporter:
       name: Personajes2_61
       rect:
         serializedVersion: 2
-        x: 32
+        x: 37
         y: 96
-        width: 32
+        width: 22
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1428,10 +1428,10 @@ TextureImporter:
       name: Personajes2_62
       rect:
         serializedVersion: 2
-        x: 64
+        x: 67
         y: 96
-        width: 32
-        height: 48
+        width: 24
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1449,10 +1449,10 @@ TextureImporter:
       name: Personajes2_63
       rect:
         serializedVersion: 2
-        x: 96
+        x: 99
         y: 96
-        width: 32
-        height: 48
+        width: 29
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1470,10 +1470,10 @@ TextureImporter:
       name: Personajes2_64
       rect:
         serializedVersion: 2
-        x: 128
+        x: 131
         y: 96
-        width: 32
-        height: 48
+        width: 28
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1491,10 +1491,10 @@ TextureImporter:
       name: Personajes2_65
       rect:
         serializedVersion: 2
-        x: 160
+        x: 163
         y: 96
-        width: 32
-        height: 48
+        width: 28
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1512,10 +1512,10 @@ TextureImporter:
       name: Personajes2_66
       rect:
         serializedVersion: 2
-        x: 192
+        x: 196
         y: 96
-        width: 32
-        height: 48
+        width: 24
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1533,10 +1533,10 @@ TextureImporter:
       name: Personajes2_67
       rect:
         serializedVersion: 2
-        x: 224
+        x: 228
         y: 96
-        width: 32
-        height: 48
+        width: 24
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1554,10 +1554,10 @@ TextureImporter:
       name: Personajes2_68
       rect:
         serializedVersion: 2
-        x: 256
+        x: 260
         y: 96
-        width: 32
-        height: 48
+        width: 24
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1575,10 +1575,10 @@ TextureImporter:
       name: Personajes2_69
       rect:
         serializedVersion: 2
-        x: 288
+        x: 292
         y: 96
-        width: 32
-        height: 48
+        width: 27
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1596,10 +1596,10 @@ TextureImporter:
       name: Personajes2_70
       rect:
         serializedVersion: 2
-        x: 320
+        x: 324
         y: 96
-        width: 32
-        height: 48
+        width: 26
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1617,10 +1617,10 @@ TextureImporter:
       name: Personajes2_71
       rect:
         serializedVersion: 2
-        x: 352
+        x: 356
         y: 96
-        width: 32
-        height: 48
+        width: 25
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1638,10 +1638,10 @@ TextureImporter:
       name: Personajes2_72
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
         y: 48
-        width: 32
-        height: 48
+        width: 24
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1659,9 +1659,9 @@ TextureImporter:
       name: Personajes2_73
       rect:
         serializedVersion: 2
-        x: 32
+        x: 37
         y: 48
-        width: 32
+        width: 22
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1680,10 +1680,10 @@ TextureImporter:
       name: Personajes2_74
       rect:
         serializedVersion: 2
-        x: 64
+        x: 69
         y: 48
-        width: 32
-        height: 48
+        width: 24
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1703,8 +1703,8 @@ TextureImporter:
         serializedVersion: 2
         x: 96
         y: 48
-        width: 32
-        height: 48
+        width: 29
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1722,10 +1722,10 @@ TextureImporter:
       name: Personajes2_76
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 48
-        width: 32
-        height: 48
+        width: 28
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1743,10 +1743,10 @@ TextureImporter:
       name: Personajes2_77
       rect:
         serializedVersion: 2
-        x: 160
+        x: 161
         y: 48
-        width: 32
-        height: 48
+        width: 28
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1764,10 +1764,10 @@ TextureImporter:
       name: Personajes2_78
       rect:
         serializedVersion: 2
-        x: 192
+        x: 196
         y: 48
-        width: 32
-        height: 48
+        width: 24
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1785,10 +1785,10 @@ TextureImporter:
       name: Personajes2_79
       rect:
         serializedVersion: 2
-        x: 224
+        x: 228
         y: 48
-        width: 32
-        height: 48
+        width: 24
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1806,10 +1806,10 @@ TextureImporter:
       name: Personajes2_80
       rect:
         serializedVersion: 2
-        x: 256
+        x: 260
         y: 48
-        width: 32
-        height: 48
+        width: 24
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1827,10 +1827,10 @@ TextureImporter:
       name: Personajes2_81
       rect:
         serializedVersion: 2
-        x: 288
+        x: 289
         y: 48
-        width: 32
-        height: 48
+        width: 27
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1848,10 +1848,10 @@ TextureImporter:
       name: Personajes2_82
       rect:
         serializedVersion: 2
-        x: 320
+        x: 322
         y: 48
-        width: 32
-        height: 48
+        width: 26
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1869,10 +1869,10 @@ TextureImporter:
       name: Personajes2_83
       rect:
         serializedVersion: 2
-        x: 352
+        x: 355
         y: 48
-        width: 32
-        height: 48
+        width: 25
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1890,10 +1890,10 @@ TextureImporter:
       name: Personajes2_84
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 0
-        width: 32
-        height: 48
+        width: 27
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1911,9 +1911,9 @@ TextureImporter:
       name: Personajes2_85
       rect:
         serializedVersion: 2
-        x: 32
+        x: 34
         y: 0
-        width: 32
+        width: 29
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1932,10 +1932,10 @@ TextureImporter:
       name: Personajes2_86
       rect:
         serializedVersion: 2
-        x: 64
+        x: 68
         y: 0
-        width: 32
-        height: 48
+        width: 27
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1953,10 +1953,10 @@ TextureImporter:
       name: Personajes2_87
       rect:
         serializedVersion: 2
-        x: 96
+        x: 98
         y: 0
-        width: 32
-        height: 48
+        width: 29
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1974,10 +1974,10 @@ TextureImporter:
       name: Personajes2_88
       rect:
         serializedVersion: 2
-        x: 128
+        x: 130
         y: 0
-        width: 32
-        height: 48
+        width: 29
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1995,10 +1995,10 @@ TextureImporter:
       name: Personajes2_89
       rect:
         serializedVersion: 2
-        x: 160
+        x: 162
         y: 0
-        width: 32
-        height: 48
+        width: 29
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2016,10 +2016,10 @@ TextureImporter:
       name: Personajes2_90
       rect:
         serializedVersion: 2
-        x: 192
+        x: 196
         y: 0
-        width: 32
-        height: 48
+        width: 25
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2037,10 +2037,10 @@ TextureImporter:
       name: Personajes2_91
       rect:
         serializedVersion: 2
-        x: 224
+        x: 228
         y: 0
-        width: 32
-        height: 48
+        width: 25
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2058,10 +2058,10 @@ TextureImporter:
       name: Personajes2_92
       rect:
         serializedVersion: 2
-        x: 256
+        x: 260
         y: 0
-        width: 32
-        height: 48
+        width: 25
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2079,10 +2079,10 @@ TextureImporter:
       name: Personajes2_93
       rect:
         serializedVersion: 2
-        x: 288
+        x: 291
         y: 0
-        width: 32
-        height: 48
+        width: 29
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2100,10 +2100,10 @@ TextureImporter:
       name: Personajes2_94
       rect:
         serializedVersion: 2
-        x: 320
+        x: 322
         y: 0
-        width: 32
-        height: 48
+        width: 29
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2121,10 +2121,10 @@ TextureImporter:
       name: Personajes2_95
       rect:
         serializedVersion: 2
-        x: 352
+        x: 353
         y: 0
-        width: 32
-        height: 48
+        width: 29
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

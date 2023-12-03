@@ -3718,6 +3718,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5014929586704172492, guid: 868cde8784660a74a988cfdf3f118bdd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1803258815, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+    - target: {fileID: 5014929586704172492, guid: 868cde8784660a74a988cfdf3f118bdd, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -3745,10 +3749,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  spriteRenderer: {fileID: 0}
-  spriteDown: {fileID: -2074770732, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
-  spriteLeft: {fileID: -529368127, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
-  spriteRight: {fileID: 268098415, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  spriteRenderer: {fileID: 1998629430}
+  spriteDown: {fileID: 1803258815, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  spriteLeft: {fileID: 1573979180, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  spriteRight: {fileID: -771175484, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
   spriteUp: {fileID: -1130031997, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
 --- !u!50 &1998629429
 Rigidbody2D:
@@ -3777,6 +3781,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!212 &1998629430 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5014929586704172492, guid: 868cde8784660a74a988cfdf3f118bdd, type: 3}
+  m_PrefabInstance: {fileID: 1998629426}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

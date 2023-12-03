@@ -180,7 +180,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.34318262, g: 0.35647324, b: 0.3773585, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3670,6 +3670,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2448877300495763858, guid: 868cde8784660a74a988cfdf3f118bdd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448877300495763858, guid: 868cde8784660a74a988cfdf3f118bdd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448877300495763858, guid: 868cde8784660a74a988cfdf3f118bdd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448877300495763858, guid: 868cde8784660a74a988cfdf3f118bdd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.060000002
       objectReference: {fileID: 0}
@@ -3748,7 +3760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb04248babeaefd459652c587d2172ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 2
   spriteRenderer: {fileID: 1998629430}
   spriteDown: {fileID: 1803258815, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
   spriteLeft: {fileID: 1573979180, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}

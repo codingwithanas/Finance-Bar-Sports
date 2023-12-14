@@ -7474,6 +7474,7 @@ GameObject:
   - component: {fileID: 1580847618}
   - component: {fileID: 1580847617}
   - component: {fileID: 1580847616}
+  - component: {fileID: 1580847620}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -7579,6 +7580,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1580847620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580847615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7078c184888624f83e878bb58bf712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreProducto: []
+  precioProducto: []
+  maquinaArcade: {fileID: 0}
+  maquinaExpendedora: {fileID: 0}
+  maquinaRegalos: {fileID: 0}
+  numeroEmpleados: {fileID: 0}
 --- !u!1 &1617882556
 GameObject:
   m_ObjectHideFlags: 0

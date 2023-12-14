@@ -4,21 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-<<<<<<< HEAD
-    path: "Assets/Scenes/Men\xFAPrincipal.unity"
-=======
-    path: Assets/Scenes/PCargar.unity
->>>>>>> main
-    guid: 4f2712a155d63554b99535202cb6f4b1
-  - enabled: 1
-    path: Assets/Scenes/BarInicial.unity
-    guid: f45deb15cde52ef4793d769411b4a3ee
-  - enabled: 1
-    path: Assets/Scenes/PantallaInstrucciones.unity
-    guid: 7e024bf8073ed8d4389164bc63521c5a
+  m_Scenes: []
   m_configObjects: {}

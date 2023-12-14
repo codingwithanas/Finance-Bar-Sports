@@ -1,58 +1,59 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class LibretaManager : MonoBehaviour
+public class PrimeraPag : MonoBehaviour
 {
-    // Referencias a campos de texto para cada producto
-    public InputField nombreProducto1;
-    public InputField precioProducto1;
+    public InputField[] nombreProducto;
+    public InputField[] precioProducto;
+    public Toggle maquinaArcade;
+    public Toggle maquinaExpendedora;
+    public Toggle maquinaRegalos;
+    public Dropdown numeroEmpleados;
 
-    public InputField nombreProducto2;
-    public InputField precioProducto2;
-
-    public InputField nombreProducto3;
-    public InputField precioProducto3;
-
-    public InputField nombreProducto4;
-    public InputField precioProducto4;
-
-    public InputField nombreProducto5;
-    public InputField precioProducto5;
-
-    public InputField nombreProducto6;
-    public InputField precioProducto6;
-
-    // Repite para los productos 3, 4, 5, y 6
-
-    // Método para guardar los datos
     public void GuardarDatos()
     {
-        // Guarda los datos ingresados por el jugador para cada producto
-        string nombre1 = nombreProducto1.text;
-        float precio1 = float.Parse(precioProducto1.text);
+        // Validar la entrada antes de guardar datos
+        for (int i = 0; i < nombreProducto.Length; i++)
+        {
+            string nombre = nombreProducto[i].text.Trim();
+            if (!string.IsNullOrEmpty(nombre))
+            {
+                PlayerPrefs.SetString("NombreProducto" + i, nombre);
+                // Validar que el precio sea un número válido
+                float precio;
+                if (float.TryParse(precioProducto[i].text, out precio))
+                {
+                    PlayerPrefs.SetFloat("PrecioProducto" + i, precio);
+                }
+                else
+                {
+                    Debug.LogError("Error al convertir precio del producto " + i);
+                }
+            }
+            else
+            {
+                Debug.LogError("El nombre del producto " + i + " no puede estar vacío");
+            }
+        }
 
-        string nombre2 = nombreProducto2.text;
-        float precio2 = float.Parse(precioProducto2.text);
+        // Guardar las opciones de máquinas y empleados
+        PlayerPrefs.SetInt("MaquinaArcade", maquinaArcade.isOn ? 1 : 0);
+        PlayerPrefs.SetInt("MaquinaExpendedora", maquinaExpendedora.isOn ? 1 : 0);
+        PlayerPrefs.SetInt("MaquinaRegalos", maquinaRegalos.isOn ? 1 : 0);
+        PlayerPrefs.SetInt("NumeroEmpleados", numeroEmpleados.value);
+    }
 
-        string nombre3 = nombreProducto3.text;
-        float precio3 = float.Parse(precioProducto3.text);
+    public void CargarBarInicial()
+    {
+        GuardarDatos();
+        SceneManager.LoadScene("BarInicial");
+    }
 
-        string nombre4 = nombreProducto4.text;
-        float precio4 = float.Parse(precioProducto4.text);
-
-        string nombre5 = nombreProducto5.text;
-        float precio5 = float.Parse(precioProducto5.text);
-
-        string nombre6 = nombreProducto6.text;
-        float precio6 = float.Parse(precioProducto6.text);
-
-        // Repite para los productos 3, 4, 5, y 6
-
-        // Puedes imprimir los datos en la consola para verificar
-        Debug.Log("Producto 1: " + nombre1 + ", Precio: " + precio1);
-        Debug.Log("Producto 2: " + nombre2 + ", Precio: " + precio2);
-        // Repite para los productos 3, 4, 5, y 6
-
-        // Puedes realizar operaciones adicionales según tus necesidades
+    public void CargarSegundaPag()
+    {
+        GuardarDatos();
+        SceneManager.LoadScene("SegundaPag");
     }
 }
+

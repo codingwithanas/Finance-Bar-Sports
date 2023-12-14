@@ -20,7 +20,7 @@ public class PrimeraPag : MonoBehaviour
             if (!string.IsNullOrEmpty(nombre))
             {
                 PlayerPrefs.SetString("NombreProducto" + i, nombre);
-                // Validar que el precio sea un número válido
+                // Validar que el precio sea un nï¿½mero vï¿½lido
                 float precio;
                 if (float.TryParse(precioProducto[i].text, out precio))
                 {
@@ -33,11 +33,11 @@ public class PrimeraPag : MonoBehaviour
             }
             else
             {
-                Debug.LogError("El nombre del producto " + i + " no puede estar vacío");
+                Debug.LogError("El nombre del producto " + i + " no puede estar vacï¿½o");
             }
         }
 
-        // Guardar las opciones de máquinas y empleados
+        // Guardar las opciones de mï¿½quinas y empleados
         PlayerPrefs.SetInt("MaquinaArcade", maquinaArcade.isOn ? 1 : 0);
         PlayerPrefs.SetInt("MaquinaExpendedora", maquinaExpendedora.isOn ? 1 : 0);
         PlayerPrefs.SetInt("MaquinaRegalos", maquinaRegalos.isOn ? 1 : 0);

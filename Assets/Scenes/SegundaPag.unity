@@ -1067,6 +1067,7 @@ GameObject:
   - component: {fileID: 181572683}
   - component: {fileID: 181572682}
   - component: {fileID: 181572681}
+  - component: {fileID: 181572685}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1169,6 +1170,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &181572685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181572680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47a14b85d799c8f48a88037f50c145d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &249036777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,7 +1247,7 @@ GameObject:
   - component: {fileID: 268027464}
   - component: {fileID: 268027463}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button_Calcular
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1488,7 +1501,7 @@ GameObject:
   - component: {fileID: 434372758}
   - component: {fileID: 434372757}
   m_Layer: 5
-  m_Name: Producto2
+  m_Name: Panel_Producto2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1908,7 +1921,7 @@ GameObject:
   - component: {fileID: 745689751}
   - component: {fileID: 745689750}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button_Siguiente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2509,7 +2522,7 @@ GameObject:
   - component: {fileID: 875446990}
   - component: {fileID: 875446989}
   m_Layer: 5
-  m_Name: Producto1
+  m_Name: Panel_Producto1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3033,7 +3046,7 @@ GameObject:
   - component: {fileID: 1108367112}
   - component: {fileID: 1108367111}
   m_Layer: 5
-  m_Name: Producto4
+  m_Name: Panel_Producto4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3515,7 +3528,7 @@ GameObject:
   - component: {fileID: 1201181171}
   - component: {fileID: 1201181170}
   m_Layer: 5
-  m_Name: Producto3
+  m_Name: Panel_Producto3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3593,7 +3606,7 @@ GameObject:
   - component: {fileID: 1267850204}
   - component: {fileID: 1267850203}
   m_Layer: 5
-  m_Name: Resultados
+  m_Name: Text_Resultados
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4196,7 +4209,7 @@ GameObject:
   - component: {fileID: 1338399037}
   - component: {fileID: 1338399036}
   m_Layer: 5
-  m_Name: Producto6
+  m_Name: Panel_Producto6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6101,7 +6114,7 @@ GameObject:
   - component: {fileID: 1749332568}
   - component: {fileID: 1749332567}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text_Siguiente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6146,7 +6159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: -->
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6616,7 +6629,7 @@ GameObject:
   - component: {fileID: 1804812191}
   - component: {fileID: 1804812190}
   m_Layer: 5
-  m_Name: ResultadoTotal
+  m_Name: Text_ResultadoTotal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6936,7 +6949,7 @@ GameObject:
   - component: {fileID: 2072214013}
   - component: {fileID: 2072214012}
   m_Layer: 5
-  m_Name: Producto5
+  m_Name: Panel_Producto5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7015,7 +7028,7 @@ GameObject:
   - component: {fileID: 2085244531}
   - component: {fileID: 2085244530}
   m_Layer: 5
-  m_Name: SumaTotal
+  m_Name: InputField_SumaTotal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

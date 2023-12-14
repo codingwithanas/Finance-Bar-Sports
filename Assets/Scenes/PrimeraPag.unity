@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 27436725}
   - component: {fileID: 27436724}
   m_Layer: 5
-  m_Name: Empleados
+  m_Name: Text_Empleados
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 41818846}
   - component: {fileID: 41818845}
   m_Layer: 5
-  m_Name: NombreProducto 4
+  m_Name: InputField_NombreProducto 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 63693921}
   - component: {fileID: 63693920}
   m_Layer: 5
-  m_Name: NombreProducto 1
+  m_Name: InputField_NombreProducto 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -776,7 +776,7 @@ GameObject:
   - component: {fileID: 78885265}
   - component: {fileID: 78885264}
   m_Layer: 5
-  m_Name: PrecioProducto 4
+  m_Name: InputField_PrecioProducto 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1446,7 +1446,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: Precio
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1593,7 +1593,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Toggle
+  m_Text: 
 --- !u!222 &282184931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1976,7 +1976,7 @@ GameObject:
   - component: {fileID: 422322069}
   - component: {fileID: 422322068}
   m_Layer: 5
-  m_Name: Producto 4
+  m_Name: Text_Producto 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3255,7 +3255,7 @@ GameObject:
   - component: {fileID: 629508238}
   - component: {fileID: 629508237}
   m_Layer: 5
-  m_Name: Producto 2
+  m_Name: Text_Producto 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3391,7 +3391,7 @@ GameObject:
   - component: {fileID: 649459812}
   - component: {fileID: 649459811}
   m_Layer: 5
-  m_Name: Nombre
+  m_Name: Text_Nombre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3765,7 +3765,7 @@ GameObject:
   - component: {fileID: 698628817}
   - component: {fileID: 698628816}
   m_Layer: 5
-  m_Name: PrecioProducto 1
+  m_Name: InputField_PrecioProducto 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3939,7 +3939,7 @@ GameObject:
   - component: {fileID: 749330963}
   - component: {fileID: 749330962}
   m_Layer: 5
-  m_Name: Precio
+  m_Name: Text_Precio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4207,7 +4207,7 @@ GameObject:
   - component: {fileID: 796786159}
   - component: {fileID: 796786158}
   m_Layer: 5
-  m_Name: CIniciales
+  m_Name: Text_CreditosIniciales
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4518,7 +4518,7 @@ GameObject:
   - component: {fileID: 861525591}
   - component: {fileID: 861525590}
   m_Layer: 5
-  m_Name: PrecioProducto 5
+  m_Name: InputField_PrecioProducto 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4693,7 +4693,7 @@ GameObject:
   - component: {fileID: 915431316}
   - component: {fileID: 915431315}
   m_Layer: 5
-  m_Name: NombreProducto 6
+  m_Name: InputField_NombreProducto 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5047,7 +5047,7 @@ GameObject:
   - component: {fileID: 1050461053}
   - component: {fileID: 1050461052}
   m_Layer: 5
-  m_Name: Titulo
+  m_Name: Text_Titulo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5239,7 +5239,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Toggle
+  m_Text: 
 --- !u!222 &1096160445
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5400,7 +5400,7 @@ GameObject:
   - component: {fileID: 1143049079}
   - component: {fileID: 1143049078}
   m_Layer: 5
-  m_Name: NombreProducto 5
+  m_Name: InputField_NombreProducto 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5574,7 +5574,7 @@ GameObject:
   - component: {fileID: 1167716864}
   - component: {fileID: 1167716863}
   m_Layer: 5
-  m_Name: Producto 3
+  m_Name: Text_Producto 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5861,7 +5861,7 @@ GameObject:
   - component: {fileID: 1215363454}
   - component: {fileID: 1215363453}
   m_Layer: 5
-  m_Name: NombreProducto 3
+  m_Name: InputField_NombreProducto 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6087,7 +6087,7 @@ GameObject:
   - component: {fileID: 1268426278}
   - component: {fileID: 1268426277}
   m_Layer: 5
-  m_Name: "M\xE1quina 2"
+  m_Name: "Text_M\xE1quina expendedora"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6223,7 +6223,7 @@ GameObject:
   - component: {fileID: 1335118818}
   - component: {fileID: 1335118817}
   m_Layer: 5
-  m_Name: PrecioProducto 2
+  m_Name: InputField_PrecioProducto 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6397,7 +6397,7 @@ GameObject:
   - component: {fileID: 1377197403}
   - component: {fileID: 1377197402}
   m_Layer: 5
-  m_Name: Producto 6
+  m_Name: Text_Producto 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6533,7 +6533,7 @@ GameObject:
   - component: {fileID: 1401552768}
   - component: {fileID: 1401552767}
   m_Layer: 5
-  m_Name: "M\xE1quina 1"
+  m_Name: "Text_M\xE1quina arcade"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6669,7 +6669,7 @@ GameObject:
   - component: {fileID: 1403920817}
   - component: {fileID: 1403920816}
   m_Layer: 5
-  m_Name: NombreProducto 2
+  m_Name: InputField_NombreProducto 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6843,7 +6843,7 @@ GameObject:
   - component: {fileID: 1434499008}
   - component: {fileID: 1434499007}
   m_Layer: 5
-  m_Name: Producto 1
+  m_Name: Text_Producto 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7066,7 +7066,7 @@ GameObject:
   - component: {fileID: 1502901680}
   - component: {fileID: 1502901679}
   m_Layer: 5
-  m_Name: Cerrar
+  m_Name: Button_Cerrar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7186,7 +7186,7 @@ GameObject:
   - component: {fileID: 1553845125}
   - component: {fileID: 1553845124}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text_Siguiente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7231,7 +7231,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: -->
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7453,7 +7453,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Toggle
+  m_Text: 
 --- !u!222 &1572449613
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7474,6 +7474,7 @@ GameObject:
   - component: {fileID: 1580847618}
   - component: {fileID: 1580847617}
   - component: {fileID: 1580847616}
+  - component: {fileID: 1580847620}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -7579,6 +7580,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1580847620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580847615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7078c184888624f83e878bb58bf712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreProducto: []
+  precioProducto: []
+  maquinaArcade: {fileID: 0}
+  maquinaExpendedora: {fileID: 0}
+  maquinaRegalos: {fileID: 0}
+  numeroEmpleados: {fileID: 0}
 --- !u!1 &1617882556
 GameObject:
   m_ObjectHideFlags: 0
@@ -8255,7 +8274,7 @@ GameObject:
   - component: {fileID: 1745030859}
   - component: {fileID: 1745030858}
   m_Layer: 5
-  m_Name: Producto 5
+  m_Name: Text_Producto 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8733,7 +8752,7 @@ GameObject:
   - component: {fileID: 1785700660}
   - component: {fileID: 1785700659}
   m_Layer: 5
-  m_Name: Siguiente
+  m_Name: Button_Siguiente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9341,7 +9360,7 @@ GameObject:
   - component: {fileID: 1857620479}
   - component: {fileID: 1857620478}
   m_Layer: 5
-  m_Name: PrecioProducto 3
+  m_Name: InputField_PrecioProducto 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10570,7 +10589,7 @@ GameObject:
   - component: {fileID: 1989915841}
   - component: {fileID: 1989915840}
   m_Layer: 5
-  m_Name: PrecioProducto 6
+  m_Name: InputField_PrecioProducto 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10744,7 +10763,7 @@ GameObject:
   - component: {fileID: 1998027189}
   - component: {fileID: 1998027188}
   m_Layer: 5
-  m_Name: "M\xE1quina 3"
+  m_Name: "Text_M\xE1quina 3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10931,7 +10950,7 @@ GameObject:
   - component: {fileID: 2016522967}
   - component: {fileID: 2016522966}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text_Cerrar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10976,7 +10995,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Cerrar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

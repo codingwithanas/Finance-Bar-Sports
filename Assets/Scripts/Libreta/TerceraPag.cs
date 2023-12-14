@@ -1,6 +1,3 @@
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-using UnityEngine;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -24,22 +21,14 @@ public class TerceraPag : MonoBehaviour
     {
         alquiler.text = "-60";
         facturas.text = "-40";
-        // Asegurarse de que todos los valores sean negativos
-        float consumiblesValue = -PlayerPrefs.GetFloat("SumaTotal");
-        consumiblesValue += PlayerPrefs.GetInt("MaquinaExpendedora") == 1 ? -20 : 0;
-        consumibles.text = consumiblesValue.ToString();
-
+        //consumibles.text = (PlayerPrefs.GetInt("MaquinaExpendedora") == 1 ? -20 : 0) - PlayerPrefs.GetFloat("SumaTotal").ToString();
         regalos.text = PlayerPrefs.GetInt("MaquinaRegalos") == 1 ? "-150" : "0";
         empleados.text = (-50 * PlayerPrefs.GetInt("NumeroEmpleados")).ToString();
     }
 
     public void VerificarCalculos()
     {
-        float totalCalculado = -60 - 40 - PlayerPrefs.GetFloat("SumaTotal")
-            + (PlayerPrefs.GetInt("MaquinaExpendedora") == 1 ? -20 : 0)
-            + (PlayerPrefs.GetInt("MaquinaRegalos") == 1 ? -150 : 0)
-            - (50 * PlayerPrefs.GetInt("NumeroEmpleados"));
-
+        float totalCalculado = -60 - 40 + PlayerPrefs.GetFloat("SumaTotal") + (PlayerPrefs.GetInt("MaquinaExpendedora") == 1 ? -20 : 0) + (PlayerPrefs.GetInt("MaquinaRegalos") == 1 ? -150 : 0) - (50 * PlayerPrefs.GetInt("NumeroEmpleados"));
         float totalInput;
 
         if (float.TryParse(sumaTotal.text, out totalInput) && Mathf.Approximately(totalInput, totalCalculado))
@@ -55,6 +44,6 @@ public class TerceraPag : MonoBehaviour
 
     public void CargarBarInicial()
     {
-        SceneManager.LoadScene("2_Bar Inicial");
+        SceneManager.LoadScene("BarInicial");
     }
 }

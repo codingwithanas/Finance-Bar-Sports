@@ -240,7 +240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46249775a086adc45bfd5b1f9c05d234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuCanvas: {fileID: 0}
 --- !u!1 &67953251
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,7 +599,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46249775a086adc45bfd5b1f9c05d234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuCanvas: {fileID: 0}
 --- !u!1 &428860390
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +732,7 @@ GameObject:
   - component: {fileID: 636441305}
   - component: {fileID: 636441304}
   - component: {fileID: 636441303}
+  - component: {fileID: 636441306}
   m_Layer: 0
   m_Name: Salir
   m_TagString: Untagged
@@ -843,6 +842,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636441301}
   m_CullTransparentMesh: 1
+--- !u!114 &636441306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636441301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d2b6ef786fce44eb0de615573e2129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1012105593
 GameObject:
   m_ObjectHideFlags: 0

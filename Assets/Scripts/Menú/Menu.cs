@@ -41,7 +41,7 @@ public class Menu : MonoBehaviour
 
     public void OnInstructionsButtonClicked()
     {
-        SceneManager.LoadScene("Instrucciones");
+        SceneManager.LoadScene("PantallaInstrucciones");
     }
 
     public void OnExitButtonClicked()

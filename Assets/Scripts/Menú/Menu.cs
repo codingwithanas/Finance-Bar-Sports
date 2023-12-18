@@ -36,12 +36,12 @@ public class Menu : MonoBehaviour
 
     public void OnStartButtonClicked()
     {
-        SceneManager.LoadScene("Mapa");
+        SceneManager.LoadScene("2_BarInicial");
     }
 
     public void OnInstructionsButtonClicked()
     {
-        SceneManager.LoadScene("Instrucciones");
+        SceneManager.LoadScene("PantallaInstrucciones");
     }
 
     public void OnExitButtonClicked()

@@ -9,6 +9,7 @@ public class DestroyOnContact : MonoBehaviour
     {
         if (collision.gameObject == personajePrincipal)
         {
+            FindObjectOfType<MessageController>().OcultarMensajesYPanel();
             // Congelar al personaje (detener su movimiento)
             Rigidbody2D rb = personajePrincipal.GetComponent<Rigidbody2D>();
             if (rb != null)

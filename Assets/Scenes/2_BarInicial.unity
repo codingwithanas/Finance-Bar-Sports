@@ -6193,7 +6193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb04248babeaefd459652c587d2172ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
+  moveSpeed: 2
   spriteRenderer: {fileID: 1998629430}
   spritesDown:
   - {fileID: -1653807020, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}

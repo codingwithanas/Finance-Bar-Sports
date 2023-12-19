@@ -17,13 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PrimeraPag.unity
     guid: 268c2959ab438314db781d6c4744e962
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SegundaPag.unity
     guid: f808ce02a54313d4ab16c20e44ecaa7b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TerceraPag.unity
     guid: 76f477c0ed66e994aa3b83323a8d2d51
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
-    guid: 737b5167a3ef017478c4a8510e206c65
+    guid: c6fb150ac7af09649b8f2fbe7a7023f5
+  - enabled: 1
+    path: Assets/Scenes/PantallaVictoria.unity
+    guid: ffff25ce9fcb1674ca71084f528ff588
   m_configObjects: {}

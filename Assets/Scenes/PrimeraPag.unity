@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 141175670}
   - component: {fileID: 141175672}
   - component: {fileID: 141175671}
+  - component: {fileID: 141175673}
   m_Layer: 0
   m_Name: Pregunta1
   m_TagString: Untagged
@@ -196,6 +197,19 @@ MonoBehaviour:
   respuestaBotones: []
   correctoColor: {r: 0, g: 0, b: 0, a: 0}
   gameOverSceneName: GameOver
+--- !u!114 &141175673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141175669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &141488768
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,6 +356,7 @@ GameObject:
   - component: {fileID: 178064977}
   - component: {fileID: 178064976}
   - component: {fileID: 178064975}
+  - component: {fileID: 178064978}
   m_Layer: 0
   m_Name: BotonPR2_I
   m_TagString: Untagged
@@ -451,6 +466,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178064973}
   m_CullTransparentMesh: 1
+--- !u!114 &178064978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178064973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &255689712
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,6 +625,7 @@ GameObject:
   - component: {fileID: 306301486}
   - component: {fileID: 306301485}
   - component: {fileID: 306301484}
+  - component: {fileID: 306301487}
   m_Layer: 0
   m_Name: BotonPR2_C
   m_TagString: Untagged
@@ -706,6 +735,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 306301482}
   m_CullTransparentMesh: 1
+--- !u!114 &306301487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306301482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &459466441
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,6 +893,7 @@ GameObject:
   - component: {fileID: 474621763}
   - component: {fileID: 474621765}
   - component: {fileID: 474621764}
+  - component: {fileID: 474621766}
   m_Layer: 0
   m_Name: Pregunta2
   m_TagString: Untagged
@@ -917,6 +960,19 @@ MonoBehaviour:
   respuestaBotones: []
   correctoColor: {r: 0, g: 0, b: 0, a: 0}
   gameOverSceneName: GameOver
+--- !u!114 &474621766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474621762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &520252704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1131,6 +1187,7 @@ GameObject:
   - component: {fileID: 643471480}
   - component: {fileID: 643471479}
   - component: {fileID: 643471478}
+  - component: {fileID: 643471481}
   m_Layer: 0
   m_Name: BotonPR2_I2
   m_TagString: Untagged
@@ -1240,6 +1297,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643471476}
   m_CullTransparentMesh: 1
+--- !u!114 &643471481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643471476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &668475603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,8 +1406,6 @@ GameObject:
   - component: {fileID: 757040069}
   - component: {fileID: 757040068}
   - component: {fileID: 757040067}
-  - component: {fileID: 757040071}
-  - component: {fileID: 757040072}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1431,35 +1499,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &757040071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757040064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a925fae330fd2dd46ac2ac5f523fc6f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  preguntaTexto: {fileID: 0}
-  respuestaBotones: []
-  correctoColor: {r: 0, g: 0, b: 0, a: 0}
-  gameOverSceneName: GameOver
---- !u!114 &757040072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757040064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7012536d932141b4284958081ed67252, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pantallaVictoria: PantallaVictoria
 --- !u!1 &791493388
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,6 +1511,7 @@ GameObject:
   - component: {fileID: 791493392}
   - component: {fileID: 791493391}
   - component: {fileID: 791493390}
+  - component: {fileID: 791493393}
   m_Layer: 0
   m_Name: BotonPR1_I
   m_TagString: Untagged
@@ -1581,6 +1621,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791493388}
   m_CullTransparentMesh: 1
+--- !u!114 &791493393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791493388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &821137464
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,6 +1780,7 @@ GameObject:
   - component: {fileID: 823989619}
   - component: {fileID: 823989618}
   - component: {fileID: 823989617}
+  - component: {fileID: 823989620}
   m_Layer: 0
   m_Name: BotonPR4_C
   m_TagString: Untagged
@@ -1836,6 +1890,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823989615}
   m_CullTransparentMesh: 1
+--- !u!114 &823989620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823989615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &869771866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,6 +2049,7 @@ GameObject:
   - component: {fileID: 881337328}
   - component: {fileID: 881337327}
   - component: {fileID: 881337326}
+  - component: {fileID: 881337329}
   m_Layer: 0
   m_Name: BotonPR1_I2
   m_TagString: Untagged
@@ -2091,6 +2159,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881337324}
   m_CullTransparentMesh: 1
+--- !u!114 &881337329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881337324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &915412825
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,6 +2661,7 @@ GameObject:
   - component: {fileID: 1065063602}
   - component: {fileID: 1065063601}
   - component: {fileID: 1065063600}
+  - component: {fileID: 1065063603}
   m_Layer: 0
   m_Name: BotonPR4_I2
   m_TagString: Untagged
@@ -2689,6 +2771,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065063598}
   m_CullTransparentMesh: 1
+--- !u!114 &1065063603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065063598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &1082607664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,6 +2929,7 @@ GameObject:
   - component: {fileID: 1185690555}
   - component: {fileID: 1185690557}
   - component: {fileID: 1185690556}
+  - component: {fileID: 1185690558}
   m_Layer: 0
   m_Name: Pregunta4
   m_TagString: Untagged
@@ -2900,6 +2996,19 @@ MonoBehaviour:
   respuestaBotones: []
   correctoColor: {r: 0, g: 0, b: 0, a: 0}
   gameOverSceneName: GameOver
+--- !u!114 &1185690558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185690554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &1198481644
 GameObject:
   m_ObjectHideFlags: 0
@@ -3046,6 +3155,7 @@ GameObject:
   - component: {fileID: 1217908435}
   - component: {fileID: 1217908434}
   - component: {fileID: 1217908433}
+  - component: {fileID: 1217908436}
   m_Layer: 0
   m_Name: BotonPR3_I2
   m_TagString: Untagged
@@ -3155,6 +3265,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217908431}
   m_CullTransparentMesh: 1
+--- !u!114 &1217908436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217908431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &1226115577
 GameObject:
   m_ObjectHideFlags: 0
@@ -3166,6 +3289,7 @@ GameObject:
   - component: {fileID: 1226115578}
   - component: {fileID: 1226115580}
   - component: {fileID: 1226115579}
+  - component: {fileID: 1226115581}
   m_Layer: 0
   m_Name: Pregunta3
   m_TagString: Untagged
@@ -3232,6 +3356,19 @@ MonoBehaviour:
   respuestaBotones: []
   correctoColor: {r: 0, g: 0, b: 0, a: 0}
   gameOverSceneName: GameOver
+--- !u!114 &1226115581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226115577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &1249635448
 GameObject:
   m_ObjectHideFlags: 0
@@ -3319,6 +3456,7 @@ GameObject:
   - component: {fileID: 1273488866}
   - component: {fileID: 1273488865}
   - component: {fileID: 1273488864}
+  - component: {fileID: 1273488867}
   m_Layer: 0
   m_Name: BotonPR3_C
   m_TagString: Untagged
@@ -3428,6 +3566,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273488862}
   m_CullTransparentMesh: 1
+--- !u!114 &1273488867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273488862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &1556012399
 GameObject:
   m_ObjectHideFlags: 0
@@ -3440,6 +3591,7 @@ GameObject:
   - component: {fileID: 1556012403}
   - component: {fileID: 1556012402}
   - component: {fileID: 1556012401}
+  - component: {fileID: 1556012404}
   m_Layer: 0
   m_Name: BotonPR4_I
   m_TagString: Untagged
@@ -3549,6 +3701,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556012399}
   m_CullTransparentMesh: 1
+--- !u!114 &1556012404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556012399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &1618142864
 GameObject:
   m_ObjectHideFlags: 0
@@ -3904,6 +4069,7 @@ GameObject:
   - component: {fileID: 1765783170}
   - component: {fileID: 1765783169}
   - component: {fileID: 1765783168}
+  - component: {fileID: 1765783171}
   m_Layer: 0
   m_Name: BotonPR1_C
   m_TagString: Untagged
@@ -3974,7 +4140,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1765783169}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 757040064}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1765783169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4013,6 +4191,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765783166}
   m_CullTransparentMesh: 1
+--- !u!114 &1765783171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765783166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &1804465449
 GameObject:
   m_ObjectHideFlags: 0
@@ -4460,6 +4651,7 @@ GameObject:
   - component: {fileID: 2094214986}
   - component: {fileID: 2094214985}
   - component: {fileID: 2094214984}
+  - component: {fileID: 2094214987}
   m_Layer: 0
   m_Name: BotonPR3_I
   m_TagString: Untagged
@@ -4569,6 +4761,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094214982}
   m_CullTransparentMesh: 1
+--- !u!114 &2094214987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094214982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51adc9b2a5586c49a39afc47e8ccd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
 --- !u!1 &2122008768
 GameObject:
   m_ObjectHideFlags: 0

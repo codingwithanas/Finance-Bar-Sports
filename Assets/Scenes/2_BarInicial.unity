@@ -180,10 +180,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dirigite hacia el punto rojo
+  m_text: "Dir\xCDgite hacia el punto rojo"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 3
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
+  m_overflowMode: 1
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
@@ -3300,7 +3300,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3618,10 +3618,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelConv: {fileID: 2005890378}
-  imageJeque: {fileID: 1604656708}
-  textoJeque: {fileID: 339880399}
-  imageCamarero: {fileID: 0}
-  textoCamarero: {fileID: 0}
+  initialElements: {fileID: 59068450}
+  buttonNSc: {fileID: 1699148347}
 --- !u!1 &1455725921
 GameObject:
   m_ObjectHideFlags: 0
@@ -3879,6 +3877,7 @@ GameObject:
   - component: {fileID: 1699148351}
   - component: {fileID: 1699148350}
   - component: {fileID: 1699148349}
+  - component: {fileID: 1699148352}
   m_Layer: 0
   m_Name: ButtonNSc
   m_TagString: Untagged
@@ -3903,8 +3902,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 824, y: 182}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 805.79297, y: 195.83734}
+  m_SizeDelta: {x: 196.4141, y: 57.6747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1699148349
 MonoBehaviour:
@@ -3988,6 +3987,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699148347}
   m_CullTransparentMesh: 1
+--- !u!114 &1699148352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699148347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fea3955620e3a6469a2996b18395031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1803346826
 GameObject:
   m_ObjectHideFlags: 0
@@ -6182,12 +6193,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb04248babeaefd459652c587d2172ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 4
   spriteRenderer: {fileID: 1998629430}
-  spriteDown: {fileID: 1803258815, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
-  spriteLeft: {fileID: 1573979180, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
-  spriteRight: {fileID: -771175484, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
-  spriteUp: {fileID: -1130031997, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  spritesDown:
+  - {fileID: -1653807020, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  - {fileID: 793564312, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  - {fileID: 1803258815, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  spritesLeft:
+  - {fileID: 724044788, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  - {fileID: 1573979180, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  - {fileID: -2024849119, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  spritesRight:
+  - {fileID: 81136945, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  - {fileID: -771175484, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  - {fileID: -1282986277, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  spritesUp:
+  - {fileID: 269862821, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  - {fileID: 753454608, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
+  - {fileID: -1130031997, guid: 8de46445dd338ab478bd7b1d7079d3c1, type: 3}
 --- !u!50 &1998629429
 Rigidbody2D:
   serializedVersion: 4

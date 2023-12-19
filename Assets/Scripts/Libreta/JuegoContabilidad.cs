@@ -10,11 +10,11 @@ public class JuegoContabilidad : MonoBehaviour
     public TextMeshProUGUI preguntaTexto;
     public Button[] respuestaBotones;
     public Color correctoColor; // Color para la respuesta correcta
-    public string gameOverSceneName = "GameOver"; // Asegúrate de reemplazar esto con el nombre de tu escena de Game Over
+    public string gameOverSceneName = "GameOver"; // Nombre de la escena de Game Over
 
     private System.Random random = new System.Random();
     private double respuestaCorrecta;
-    private string[] productos = { "Coca Cola", "cerveza", "agua mineral", "zumo de naranja", "café" }; // Agrega aquí más productos si lo deseas
+    private List<string> productosDisponibles = new List<string> { "Coca Cola", "cerveza", "agua mineral", "zumo de naranja", "café" }; // Lista inicial de productos
 
     void Start()
     {
@@ -23,9 +23,20 @@ public class JuegoContabilidad : MonoBehaviour
 
     void GenerarPregunta()
     {
-        int cantidad = random.Next(200, 501); // Cambiado a 200-500 euros
+        if (productosDisponibles.Count == 0)
+        {
+            Debug.LogError("No hay más productos disponibles para generar preguntas.");
+            // Aquí puedes llamar a una función para manejar el fin del juego o reiniciar la lista de productos
+            return;
+        }
+
+        int cantidad = random.Next(200, 501); // Cantidad entre 200-500 euros
         respuestaCorrecta = Math.Round(cantidad * 0.20, 2);
-        string productoSeleccionado = productos[random.Next(productos.Length)]; // Selecciona un producto aleatoriamente
+
+        // Selecciona un producto aleatoriamente y lo elimina de la lista para evitar repeticiones
+        int productoIndex = random.Next(productosDisponibles.Count);
+        string productoSeleccionado = productosDisponibles[productoIndex];
+        productosDisponibles.RemoveAt(productoIndex);
 
         List<double> respuestas = new List<double> { respuestaCorrecta };
 
@@ -84,6 +95,7 @@ public class JuegoContabilidad : MonoBehaviour
                     }
                 }
             }
+            // Aquí puedes añadir cualquier otra lógica que desees ejecutar después de una respuesta correcta
         }
         else
         {

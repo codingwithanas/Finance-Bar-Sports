@@ -881,7 +881,9 @@ MonoBehaviour:
     y si\xE9ntate frente suyo.\r\n\nInicia la Conversaci\xF3n:\r\nSaluda al inversor
     y comienza una charla amigable.\r\n\nN\xFAmeros Aleatorios:\r\r\nEl inversor
     te dir\xE1 n\xFAmeros que representan posibles precios de productos.\r\n\nCalcula
-    el %:\r\nTu tarea es calcular  el 20% de cada n\xFAmero que el inversor te mencione."
+    el %:\r\nTu tarea es calcular  el 20% de cada n\xFAmero que el inversor te mencione.\n\nVictoria
+    o Derrota:\nCuando est\xE9s en la libreta asegurate de no fallar la respuesta
+    o perder\xE1s. Si respondes bien las preguntas habr\xE1s ganado."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -908,8 +910,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1118,7 +1120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc227c473309f5b489f4338a42d64d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreDeEscena: "Men\xFAPrincipal"
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
